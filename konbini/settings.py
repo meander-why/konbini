@@ -21,7 +21,9 @@ ROBOTSTXT_OBEY = False
 
 USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3'
 
+LOG_ENABLED = True
 LOG_LEVEL = 'INFO'
+LOG_FILE = './diary.log'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
